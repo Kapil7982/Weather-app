@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Weather App</title>
+    <style>
+    
+     
+
+
+      
+    </style>
+</head>
+<body>
+    <div id="maindiv">
+     
+        <div id="details">
+            <input type="city" id="city" placeholder="City name">
+            <button onclick="getData()">Search</button>
+            <button onclick="infoData()">Seven Days</button>
+
+            
+                <div id="cont">
+
+                </div>
+           
+            
+        </div>
+       
+        <div class="mapouter"><iframe id="gmap_canvas" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+        
+    
+    </div>
+
+
+
+        <div id="main_icon_cont">    
+            <div class = "icon_div">
+                <p class="for_days" id="day1"></p>
+                <img src="dots.png" class="imgClass" id="img1">
+                <p class="min_for_days" id="day1Min">Loading...</p>
+                <p class="max_for_days" id="day1Max">Loading...</p>
+            </div>
+            <div class = "icon_div">
+                <p class="for_days" id="day2"></p>
+                <img src="dots.png" class="imgClass" id="img2">
+                <p class="min_for_days" id="day2Min">Loading...</p>
+                <p class="max_for_days" id="day2Max">Loading...</p>
+            </div>
+            <div class = "icon_div">
+                <p class="for_days" id="day3"></p>
+                <img src="dots.png" class="imgClass" id="img3">
+                <p class="min_for_days" id="day3Min">Loading...</p>
+                <p class="max_for_days" id="day3Max">Loading...</p>
+            </div>
+            <div class = "icon_div">
+                <p class="for_days" id="day4"></p>
+                <img src="dots.png" class="imgClass" id="img4">
+                <p class="min_for_days" id="day4Min">Loading...</p>
+                <p class="max_for_days" id="day4Max">Loading...</p>
+            </div>
+            <div class = "icon_div">
+                <p class="for_days" id="day5"></p>
+                <img src="dots.png" class="imgClass" id="img5">
+                <p class="min_for_days" id="day5Min">Loading...</p>
+                <p class="max_for_days" id="day5Max">Loading...</p>
+            </div>
+            <div class = "icon_div">
+                <p class="for_days" id="day6"></p>
+                <img src="dots.png" class="imgClass" id="img6">
+                <p class="min_for_days" id="day6Min">Loading...</p>
+                <p class="max_for_days" id="day6Max">Loading...</p>
+            </div>
+            <div class = "icon_div">
+                <p class="for_days" id="day7"></p>
+                <img src="dots.png" class="imgClass" id="img7">
+                <p class="min_for_days" id="day7Min">Loading...</p>
+                <p class="max_for_days" id="day7Max">Loading...</p>
+            </div>
+        </div>
+</body>
+</html>
+<script src="index.js"></script>

@@ -1,0 +1,58 @@
+body{
+    background-color: blue;  background-image: url("https://images.unsplash.com/photo-1496450681664-3df85efbd29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHdlYXRoZXJ8ZW58MHx8MHx8&w=1000&q=80");
+    background-size: cover; background-repeat: no-repeat;
+   }
+#maindiv{
+   width: 100%; height: auto;  display: flex; justify-content: space-evenly; 
+   margin-top: 50px;
+}
+#details{
+   width: 40%; height: auto; margin-left: 50px; 
+  text-align: center; 
+}
+#cont{
+width: 100%; height: auto; background-color: black; color: white; border-radius: 5px; font-style: italic;
+}
+input{
+   padding-left: 30px; height: 30px; width: 40%; font-style: italic;
+}
+button{
+   padding-left: 20px; width: 20%; height: 35px; background-color: blueviolet; color: white; font-weight: bold;
+}
+.mapouter{
+width: 50%; height:400px; 
+}
+#gmap_canvas{
+width: 100%; height: 400px;
+}
+button:hover
+{
+   color: black;
+}
+
+#main_icon_cont{
+   position: absolute; top: 82%;  left: 50%; margin-right: -50%; transform: translate(-50%, -50%);
+   height: 250px;   width: 90%;  border-radius: 10px; color: rgb(0, 8, 9); font-style: italic;
+}
+
+.icon_div{
+   display: inline-bock;  float: left;height: 200px;width: 150px;margin: 20px;  border: 1px solid rgb(4, 1, 1);border-radius: 10px;
+   background-color:rgb(200, 187, 187);
+}
+
+.imgClass{
+   height: 100px;  width: 100px; margin-left: 20px; text-align: center;border-radius: 50%;
+}
+
+.for_days{
+   margin: 5px; border-radius: 5px;text-align: center; font-weight: bold;
+}
+
+.min_for_days{
+   text-align: center;display: inline-block;  border-radius: 5px;  font-size: 15px; height: 25px;   width: 85px;  margin: 0; margin-top: 5px;  margin-bottom: 5px; margin-left: 5px; font-family: sans-serif
+}
+
+
+.max_for_days{
+   text-align: center; display: inline-block;  border-radius: 5px; font-size: 15px; height: 25px; width: 85px; margin: 0;  margin-bottom: 10px; margin-left: 50px;  font-family: sans-serif
+}
